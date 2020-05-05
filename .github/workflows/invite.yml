@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: invite-contributor
-      uses: bdougie/invite-based-on-comment@bdougie-patch-1
+      uses: bdougie/invite-based-on-comment@testing
       env:
         TEAM_ID: 3490252
         ORG: 'github-craftwork'
